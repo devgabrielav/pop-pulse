@@ -2,202 +2,248 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 99%;
-  margin-left: 50px;
-  margin-right: -50px;
-  width: 37em;
-}
-
-.chatsDiv {
-  align-items: center;
-  border: 3px solid #E1B833;
-  border-radius: 20px;
-  box-shadow: 0px 0px 8px 0px #E1B8332B;
-  background: #252424;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-end;
-  max-height: 640px;
-  overflow: hidden;
-  width: 95%;
+  gap: 14px;
+  justify-content: center;
+  width: 500px;
 }
 
 .chatTitleDiv {
   align-items: center;
   display: flex;
+  gap: 14px;
   justify-content: center;
-  margin-left: 40px;
   width: 100%;
 }
 
-.chatBotTitle {
-  color: #E1B833;
-  font-family: 'Metamorphous';
-  font-size: 3.5rem;
-  font-weight: 400;
-  letter-spacing: 15%;
-  line-height: 100%;
-  text-align: center;
-  text-shadow: 0px 4px 4px 0px #00000073;
-  width: 600px;
+.popBrandBadge {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.28) 0%, rgba(34, 211, 238, 0.25) 100%);
+  border: 2px solid rgba(168, 85, 247, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(168, 85, 247, 0.35);
+  display: flex;
+  font-size: 1.25rem;
+  gap: 4px;
+  height: 58px;
+  justify-content: center;
+  padding: 0 12px;
 }
 
-.furiaLogo {
-  height: 10em;
-  width: 10em;
+.chatBotTitle {
+  background: linear-gradient(90deg, #F472B6 0%, #C084FC 50%, #38BDF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Metamorphous', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 110%;
+  text-align: left;
+}
+
+.chatBotSubtitle {
+  color: #CBD5E1;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.chatsDiv {
+  align-items: center;
+  background: rgba(9, 7, 16, 0.95);
+  backdrop-filter: blur(14px);
+  border: 2px solid rgba(168, 85, 247, 0.42);
+  border-radius: 20px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.72), 0 0 22px rgba(168, 85, 247, 0.14);
+  display: flex;
+  flex-direction: column;
+  height: 690px;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
 .paragraphsDiv {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  gap: 15px;
-  padding: 20px;
+  gap: 14px;
+  padding: 18px;
   scroll-behavior: smooth;
-  scrollbar-width: none;
-  scrollbar-color: #dad7d7 #F4F4F4;
+  scrollbar-width: thin;
+  scrollbar-color: #A855F7 rgba(255, 255, 255, 0.05);
   overflow-y: auto;
   width: 100%;
-  height: auto;  
 }
 
 .botParagraphDiv {
   align-self: flex-start;
-  background: linear-gradient(180deg, #373638 0%, #302E2E 100%);
-  border-bottom-right-radius: 25px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  background: linear-gradient(145deg, #161326 0%, #0F0D1B 100%);
+  border: 1px solid rgba(168, 85, 247, 0.28);
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   height: auto;
-  padding: 20px;
+  max-width: 88%;
+  padding: 14px 18px;
   text-align: start;
-  width: 340px;
+}
+
+.botAvatarHeader {
+  color: #C084FC;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
 .botParagraph {
-  color: #D2D2D2;
-  font-family: 'Neuton';
+  color: #F1F5F9;
+  font-family: 'Neuton', serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 1px;
+  font-size: 1.02rem;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  white-space: pre-line;
+}
+
+.botParagraph strong {
+  color: #F472B6;
+  font-weight: 700;
 }
 
 .userParagraphDiv {
   align-self: flex-end;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  background: linear-gradient(180deg, #373638 0%, #302E2E 100%);
+  background: linear-gradient(135deg, #7E22CE 0%, #DB2777 100%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   height: auto;
-  padding: 20px;
+  max-width: 82%;
+  padding: 13px 18px;
   text-align: start;
-  width: 340px;
 }
 
 .userParagraph {
-  color: #D2D2D2;
-  font-family: 'Neuton';
+  color: #FFFFFF;
+  font-family: 'Neuton', serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 1px;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  letter-spacing: 0.4px;
 }
 
 .typingDots {
-  height: 35px;
-  width: 55px;
+  height: 30px;
+  width: 50px;
+}
+
+#dotsDiv {
+  width: 90px;
+  margin-left: 18px;
+  margin-bottom: 8px;
+}
+
+.quickPromptsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  padding: 6px 14px;
+  width: 100%;
+}
+
+.quickPromptChip {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 999px;
+  color: #E2E8F0;
+  cursor: pointer;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.72rem;
+  padding: 5px 11px;
+  transition: all 0.2s ease;
+}
+
+.quickPromptChip:hover:not(:disabled) {
+  background: rgba(168, 85, 247, 0.28);
+  border-color: #C084FC;
+  color: #FFFFFF;
 }
 
 form {
   align-items: center;
-  border: 2px solid #E1B833;
+  background: rgba(14, 12, 24, 0.98);
+  border: 2px solid rgba(168, 85, 247, 0.75);
   border-radius: 30px;
-  border-width: 2px;
   display: flex;
-  height: 69px;
-  margin: 5px 15px 5px 15px;
-  padding-right: 2px;
-  width: 98%;
+  height: 58px;
+  margin: 4px 14px;
+  padding-right: 6px;
+  width: 94%;
 }
 
 .inputForm {
-  color: #D2D2D2;
+  color: #F8FAFC;
   background: none;
   border: none;
   border-radius: 30px;
-  border-width: 2px;
-  font-size: 16px;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.92rem;
   height: 100%;
   outline: none;
-  padding-left: 15px;
+  padding-left: 18px;
   width: 100%;
 }
 
-.formButton {
-  background: none;
-  background-image: url('/src/assets/enterArrow.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  height: 68px;
-  width: 68px;
+.inputForm::placeholder {
+  color: #94A3B8;
 }
 
-#dotsDiv {
-  width: 100px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+.formButton {
+  align-items: center;
+  background: linear-gradient(135deg, #A855F7 0%, #EC4899 55%, #22D3EE 100%);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(168, 85, 247, 0.45);
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 0;
+  height: 44px;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  width: 44px;
+}
+
+.formButton:hover:not(:disabled) {
+  box-shadow: 0 4px 16px rgba(236, 72, 153, 0.65);
+  filter: brightness(1.1);
+  transform: scale(1.05);
+}
+
+.formButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.sendArrowIcon {
+  height: 20px;
+  width: 20px;
 }
 
 @media (max-width: 1360px) {
-  #dotsDiv {
-    width: 80px;
-  }
-  .typingDots {
-    height: 25px;
-    width: 45px;
-  }
   .chatBotMainSection {
-    margin-left: -70px;
-    margin-right: -90px;
-    width: 35em;
-  }
-  .chatsDiv {
-    max-height: 540px;
-    width: 92%;
-  }
-  .chatTitleDiv {
-    margin-left: 20px;
+    width: 410px;
   }
   .chatBotTitle {
-    font-size: 2.8rem;
-    letter-spacing: 10%;
-    width: 90%;
+    font-size: 1.8rem;
   }
-  .furiaLogo {
-    height: 8em;
-    width: 8em;
-  }
-  .botParagraphDiv, .userParagraphDiv {
-    padding: 16px;
-    width: 300px;
-  }
-  .botParagraph, .userParagraph {
-    font-size: 15px;
-    line-height: 110%;
-  }
-  form {
-    height: 60px;
-    width: 96%;
-  }
-  .inputForm {
-    font-size: 15px;
-  }
-  .formButton {
-    height: 58px;
-    width: 58px;
+  .chatsDiv {
+    height: 600px;
   }
 }

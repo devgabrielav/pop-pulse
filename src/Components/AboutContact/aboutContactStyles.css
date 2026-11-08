@@ -2,107 +2,137 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  height: 37.5em;
+  gap: 16px;
   justify-content: center;
   text-align: center;
-  width: 28em;
+  width: 390px;
+}
+
+.langSwitcherBar {
+  background: rgba(10, 8, 18, 0.92);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 999px;
+  display: flex;
+  gap: 6px;
+  padding: 5px;
+}
+
+.langSwitchBtn {
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  color: #CBD5E1;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  gap: 5px;
+  padding: 6px 12px;
+  transition: all 0.2s ease;
+}
+
+.langSwitchBtn:hover {
+  color: #FFFFFF;
+}
+
+.langSwitchBtn.active {
+  background: linear-gradient(135deg, #A855F7 0%, #EC4899 100%);
+  box-shadow: 0 2px 10px rgba(168, 85, 247, 0.4);
+  color: #FFFFFF;
 }
 
 .sectionTitle {
-  color: #E1B833;
-  font-family: 'Metamorphous';
-  font-size: 48px;
-  font-weight: 400;
-  letter-spacing: 15%;
-  line-height: 100%;
+  background: linear-gradient(90deg, #38BDF8 0%, #A855F7 50%, #F472B6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Metamorphous', serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 110%;
   text-align: center;
-  text-shadow: 0px 4px 4px 0px #00000073;
-  width: 80%;
+  width: 100%;
+}
+
+.aboutCardBox {
+  background: rgba(9, 7, 16, 0.94);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(168, 85, 247, 0.28);
+  border-radius: 18px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.68);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+  width: 100%;
 }
 
 .aboutParagraph {
-  color: #FFFFFF;
-  font-family: 'Mina';
-  font-size: 16px;
+  color: #E2E8F0;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.88rem;
   font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 110%;
-  margin-left: 50px;
+  letter-spacing: 0.5px;
+  line-height: 1.45;
   text-align: start;
-  width: 27em;
 }
 
-.socialsDiv {
-  display: flex;
-  gap: 15px;
-}
-
-.socialTag {
-  align-items: center;
+.coverageGrid {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  justify-content: center;
-  text-decoration: none;
+  gap: 10px;
+  margin-top: 4px;
 }
 
-.socialLogo {
-  height: 50px;
-  width: 50px;
+.coverageItem {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(21, 18, 35, 0.95) 0%, rgba(14, 12, 24, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  display: flex;
+  gap: 12px;
+  padding: 10px 14px;
+  text-align: left;
+  transition: all 0.2s ease;
 }
 
-.contactSpan {
-  color: #FFFFFF;
-  font-family: 'Neuton';
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: 1.5px;
-  text-align: center;
-  margin-left: 15px;
+.coverageItem:hover {
+  border-color: rgba(34, 211, 238, 0.5);
+  transform: translateX(3px);
 }
 
-.obsSpan {
-  color: #FFFFFF;
-  font-family: Neuton;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 15%;
-  text-align: center;
+.coverageIcon {
+  font-size: 1.5rem;
+}
+
+.coverageText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.coverageText strong {
+  color: #F8FAFC;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.9rem;
+}
+
+.coverageText span {
+  color: #94A3B8;
+  font-family: 'Mina', sans-serif;
+  font-size: 0.75rem;
 }
 
 @media (max-width: 1360px) {
   .mainAboutContactSection {
-    height: 100%;
-    margin-right: 15px;
-    width: 24em;
+    width: 310px;
   }
   .sectionTitle {
-    font-size: 36px;
-    letter-spacing: 10%;
-    width: 90%; 
+    font-size: 1.45rem;
   }
   .aboutParagraph {
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding-left: 20px;
-    margin-left: 0px;
-    width: 23em;
-  }
-  .socialsDiv {
-    gap: 12px;
-  }
-  .socialLogo {
-    height: 35px;
-    width: 35px;
-  }
-  .contactSpan {
-    font-size: 15px;
-  }
-  .obsSpan {
-    font-size: 18px;
+    font-size: 0.8rem;
   }
 }

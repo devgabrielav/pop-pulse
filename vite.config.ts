@@ -10,7 +10,7 @@ export default defineConfig({
   },
   base: './',
   server: {
-    allowedHosts: ['furia-challenge-production.up.railway.app'],
+    allowedHosts: true,
     host: true,
   },
 })

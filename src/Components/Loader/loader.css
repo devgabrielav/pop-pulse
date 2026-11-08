@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 24px;
   height: 100%;
   justify-content: center;
   width: 100%;
@@ -10,14 +10,13 @@
 
 .loaderTitle {
   background: none;
-  color: #E1B833;
-  font-family: 'Metamorphous';
+  color: #E2E8F0;
+  font-family: 'Mina', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 15%;
-  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   text-align: center;
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .loader {
@@ -25,13 +24,14 @@
   height: 48px;
   border-radius: 50%;
   display: inline-block;
-  border-top: 4px solid #FFF;
+  position: relative;
+  border-top: 4px solid #A855F7;
   border-right: 4px solid transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
 .loader::after {
-  content: '';  
+  content: '';
   box-sizing: border-box;
   position: absolute;
   left: 0;
@@ -39,7 +39,7 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border-left: 4px solid #E1B833;
+  border-left: 4px solid #22D3EE;
   border-bottom: 4px solid transparent;
   animation: rotation 0.5s linear infinite reverse;
 }
@@ -50,4 +50,4 @@
   100% {
     transform: rotate(360deg);
   }
-} 
+}
