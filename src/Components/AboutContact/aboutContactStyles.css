@@ -45,6 +45,7 @@
 
 .sectionTitle {
   background: linear-gradient(90deg, #38BDF8 0%, #A855F7 50%, #F472B6 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Metamorphous', serif;
@@ -134,5 +135,31 @@
   }
   .aboutParagraph {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainAboutContactSection {
+    width: min(100%, 680px);
+    align-items: center;
+  }
+
+  .sectionTitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainAboutContactSection {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .aboutCardBox {
+    padding: 16px;
+  }
+
+  .coverageItem {
+    padding: 9px 12px;
   }
 }

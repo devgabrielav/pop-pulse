@@ -31,6 +31,7 @@
 
 .chatBotTitle {
   background: linear-gradient(90deg, #F472B6 0%, #C084FC 50%, #38BDF8 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Metamorphous', serif;
@@ -245,5 +246,60 @@ form {
   }
   .chatsDiv {
     height: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .chatBotMainSection {
+    width: min(100%, 680px);
+    align-items: center;
+  }
+
+  .chatTitleDiv {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .chatsDiv {
+    height: 440px;
+    min-height: 440px;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .chatBotMainSection {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .chatTitleDiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .chatBotTitle {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .chatsDiv {
+    height: 480px;
+    min-height: 480px;
+    max-height: 520px;
+  }
+
+  form {
+    width: calc(100% - 24px);
+    margin: 4px 12px 8px;
+  }
+
+  .quickPromptsRow {
+    padding: 6px 10px;
+  }
+
+  .quickPromptChip {
+    flex: 1 1 auto;
+    text-align: center;
   }
 }
