@@ -50,8 +50,12 @@ function ChatBot({ lang = 'en', externalPrompt, onPromptHandled }: ChatBotProps)
   }, [lang]);
 
   useEffect(() => {
-    if (endOfMessagesRef.current) {
-      endOfMessagesRef.current?.lastElementChild?.scrollIntoView({ behavior: 'smooth' });
+    const container = endOfMessagesRef.current;
+    if (!container) return;
+
+    const distanceFromBottom = container.scrollHeight - container.scrollTop - container.clientHeight;
+    if (distanceFromBottom < 80) {
+      container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
     }
   }, [messages, loading]);
 
