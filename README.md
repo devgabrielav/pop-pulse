@@ -24,16 +24,12 @@ The platform also includes Aria, an AI-powered pop culture assistant, which can 
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="src/assets/app-screenshots/pop-pulse-1.png" alt="PopPulse screenshot 1" width="420" /></td>
-    <td align="center"><img src="src/assets/app-screenshots/pop-pulse-2.png" alt="PopPulse screenshot 2" width="420" /></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="src/assets/app-screenshots/pop-pulse-3.png" alt="PopPulse screenshot 3" width="420" /></td>
-    <td align="center"><img src="src/assets/app-screenshots/pop-pulse-4.png" alt="PopPulse screenshot 4" width="420" /></td>
-  </tr>
-</table>
+<div align="center">
+  <img src="src/assets/app-screenshots/pop-pulse-1.png" alt="PopPulse screenshot 1" width="500" style="max-width: 100%; height: auto;" />
+  <img src="src/assets/app-screenshots/pop-pulse-2.png" alt="PopPulse screenshot 2" width="500" style="max-width: 100%; height: auto;" />
+  <img src="src/assets/app-screenshots/pop-pulse-3.png" alt="PopPulse screenshot 3" width="500" style="max-width: 100%; height: auto;" />
+  <img src="src/assets/app-screenshots/pop-pulse-4.png" alt="PopPulse screenshot 4" width="500" style="max-width: 100%; height: auto;" />
+</div>
 
 ## 🧩 Tech stack
 
