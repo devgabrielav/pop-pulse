@@ -24,12 +24,24 @@ The platform also includes Aria, an AI-powered pop culture assistant, which can 
 
 ## 📸 Screenshots
 
-<div align="center">
-  <img src="src/assets/app-screenshots/pop-pulse-1.png" alt="PopPulse screenshot 1" width="500" style="max-width: 100%; height: auto;" />
-  <img src="src/assets/app-screenshots/pop-pulse-2.png" alt="PopPulse screenshot 2" width="500" style="max-width: 100%; height: auto;" />
-  <img src="src/assets/app-screenshots/pop-pulse-3.png" alt="PopPulse screenshot 3" width="500" style="max-width: 100%; height: auto;" />
-  <img src="src/assets/app-screenshots/pop-pulse-4.png" alt="PopPulse screenshot 4" width="500" style="max-width: 100%; height: auto;" />
-</div>
+Desktop
+<p align="center">
+  <img src="src/assets/app-screenshots/pop-pulse-1.png" alt="PopPulse desktop dashboard with live releases, Aria AI assistant and Pop Culture Hub" width="100%" />
+</p><p align="center">
+  <img src="src/assets/app-screenshots/pop-pulse-3.png" alt="PopPulse desktop interface showing releases, news and AI-powered discovery" width="100%" />
+</p>Features
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Aria AI Assistant</strong><br />
+      <img src="src/assets/app-screenshots/pop-pulse-2.png" alt="Aria AI chat answering a question about Steam Deck" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <strong>Pop Culture Hub</strong><br />
+      <img src="src/assets/app-screenshots/pop-pulse-4.png" alt="Pop Culture Hub with featured news and music, games and movies sections" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ## 🧩 Tech stack
 
