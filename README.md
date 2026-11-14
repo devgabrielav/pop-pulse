@@ -22,6 +22,15 @@ The platform also includes Aria, an AI-powered pop culture assistant, which can 
 - Automatic live fallback search when no API key is configured
 - Real-time updates from public sources without requiring paid data access
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="src/assets/app-screenshots/pop-pulse-1.png" alt="PopPulse screenshot 1" width="800" />
+  <img src="src/assets/app-screenshots/pop-pulse-2.png" alt="PopPulse screenshot 2" width="800" />
+  <img src="src/assets/app-screenshots/pop-pulse-3.png" alt="PopPulse screenshot 3" width="800" />
+  <img src="src/assets/app-screenshots/pop-pulse-4.png" alt="PopPulse screenshot 4" width="800" />
+</div>
+
 ## 🧩 Tech stack
 
 ### Frontend
