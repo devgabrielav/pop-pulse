@@ -1,6 +1,10 @@
 # PopPulse ✨
 
-A live pop culture hub for music, games, movies, and entertainment news — with an AI assistant that helps users discover, compare, and understand what is trending.
+## 🚀 Live demo
+
+- https://pop-pulse.onrender.com/
+
+---
 
 ## 🌍 Project overview
 
